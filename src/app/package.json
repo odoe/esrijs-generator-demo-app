@@ -1,0 +1,9 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "main",
+  "description": "Demo app using yeoman generator.",
+  "homepage": "",
+  "dojoBuild": "app.profile.js"
+
+}
