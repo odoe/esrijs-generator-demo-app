@@ -9,11 +9,11 @@ define({
     environments: [{ browserName: 'chrome' }],
     maxConcurrency: 3,
     tunnel: 'NullTunnel',
-    useLoader: {
+    loaders: {
         'host-node': 'dojo/dojo',
         'host-browser': 'node_modules/dojo/dojo.js'
     },
-    loader: {
+    loaderOptions: {
         async: true,
         locale: 'en-us',
         packages: [
